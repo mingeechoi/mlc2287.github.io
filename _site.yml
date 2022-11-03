@@ -5,7 +5,7 @@ navbar:
   right:
     - text: "Resume"                         
       href: resume.html                    
-    - text: “dashboard”                        
+    - text: "Dashboard"                        
       href: dashboard.html  
     - icon: fa-envelope fa-lg
       href: mailto:mlc2287@cumc.columbia.edu
@@ -13,4 +13,4 @@ navbar:
       href: http://github.com/mlc2287/
 output:
   html_document:
-    theme: paper
+    theme: sandstone
