@@ -1,0 +1,56 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true                
+    toc_float: true 
+---
+
+# Education
+
+#### Columbia University-MPH in Epidemiology with a Certificate in Biostatistics 
+#### Brown University-BA in Public Health and Education
+
+# Work Experience
+
+### Research Assistant
+#### Columbia University
+* Harmonized data by recording each response option for every variable in each dataset and ensuring consistent response options across all variables
+* Created a descriptive table to describe variables and the data harmonization process
+* Performed analysis of data in STATA for men's IPV attitudes and made updates in excel spreadsheet
+
+### Behavioral Technician
+#### Applied Behavioral Interventions
+* Implemented treatment programs aimed to improve personal development skills for children with autism
+* Recorded data on educational and behavior reduction activities
+* Provided therapy session notes on client’s response for Board-Certified Behavioral Analysts
+
+### Public Health Scholar
+#### Rhode Island Department of Health
+* Researched on Oral Health topics and analyzed datasets
+* Prepared reports or assisted in writing program plans, measures, and strategies
+* Plan, develop, and helped evaluate dental health messages and efforts
+* Communicated with local schools and dentists to set up meetings
+
+### Americorps Member
+#### City Year
+* Partnered up with teachers to give necessary support to students
+* Collaborated as a group to improve students’ attendance and grades
+* Led focus groups for students who needed emotional and academic support
+
+# Leadership and Engagement
+
+### Health Care Advocacy Program Volunteer
+#### Planned Parenthood
+* Educated the community about the importance of Planned Parenthood services
+* Raised Awareness about Reproductive Rights in Rhode Island
+* Provided Visitors with the opportunity to register to vote or re-register to vote
+* Asked visitors to share their story about what Planned Parenthood means to them
+
+### Community Corps Program Member
+#### Planned Parenthood
+* Engaged with local organizations and residents in Providence
+* Participated in community building orientations and workshops
+* Underwent team-building and work strategy training
+
+

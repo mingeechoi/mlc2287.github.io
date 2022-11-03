@@ -1,11 +1,17 @@
 ---
 title: "Homework 4"
+output: 
+  html_document:
+    toc: true                
+    toc_float: true        
 ---
 
-### First R website by Mingee Choi (mlc2287)
+### Submission for Homework 4
 
-This is my submission for homework 4. 
-<img src="images/image.jpg" style="width:75%">
+This is my first R website. 
+<img src="duck.jpg" style="width:75%">
 
-You can find my resume here:
-[Resume](resume.html)
+You can find my resume and dashboard here:
+
+* [Resume](resume.html)
+* [Dashboard](dashboard.html)
