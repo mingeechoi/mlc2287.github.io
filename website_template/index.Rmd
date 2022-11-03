@@ -9,7 +9,7 @@ output:
 ### Submission for Homework 4
 
 This is my first R website. 
-<img src="duck.jpg" style="width:75%">
+![](images/duck.jpg)
 
 You can find my resume and dashboard here:
 
