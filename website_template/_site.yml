@@ -10,7 +10,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:mlc2287@cumc.columbia.edu
     - icon: fa-github fa-lg
-      href: http://github.com/mlc2287/
+      href: http://github.com/mingeechoi/
 output:
   html_document:
     theme: paper
