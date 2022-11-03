@@ -13,4 +13,4 @@ navbar:
       href: http://github.com/mingeechoi/
 output:
   html_document:
-    theme: paper
+    theme: cerulean

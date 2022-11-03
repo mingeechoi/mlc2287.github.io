@@ -1,0 +1,66 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(flexdashboard)
+library(p8105.datasets)
+library(plotly)
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A-pizza ratings for NY boroughs by grade 
+
+```{r}
+rest_inspec %>% 
+  filter(str_detect(dba, "[Pp][Ii][Zz][Zz][Aa]")) %>%
+  mutate(boro = fct_infreq(boro)) %>%  
+  plot_ly(
+    x = ~boro, y = ~grade, color = ~grade,
+    type = "bar", colors = "viridis"
+  ) %>%
+  layout(title = "Pizza Place Ratings in NY",
+         xaxis = list(title = "Borough"),
+         yaxis = list(title = "Grade"))
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B-Number of restauraunts inspected in 2017
+
+```{r}
+  rest_inspec %>% 
+  filter(inspection_date >= '2017-01-01', boro != "Missing")%>%
+  group_by(boro)%>% 
+  summarize(n_restauraunt = n())%>%
+  plot_ly(
+    x = ~boro, y = ~n_restauraunt, 
+    type = "scatter", mode = "markers")
+```
+
+### Chart C-inspection score by NY borough in 2017
+
+```{r}
+rest_inspec %>%
+  filter(inspection_date >= '2017-01-01', boro != "Missing")%>%
+  plot_ly(y = ~score, x = ~boro, type = "box", colors = "viridis")
+
+```
+
+
+
+
+
+
+
